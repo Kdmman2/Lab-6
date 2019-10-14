@@ -40,6 +40,8 @@ h2{
   float:left;
 s
 }
+img {
+}
 #pic1{
   margin: 50px;
   display: block;
@@ -76,4 +78,27 @@ h3{
 footer{
   margin: 50px;
   text-align: center;
+}
+@media screen and (min-width: 100px) {
+  p {
+    font-size: 1.25rem;
+  }
+  #pic1{
+    width: 300px;
+  }
+  #pic2{
+    width: 300px;
+  }
+}
+@media screen and (min-width: 200px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5
+  }
+  #pic1 {
+    width: 600px;
+  }
+  #pic2 {
+    width: 600px;
+  }
 }
