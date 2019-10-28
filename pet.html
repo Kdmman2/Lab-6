@@ -12,12 +12,71 @@
     <a class="bar" href="groom.html">Grooming</a>
     <a class="bar" href="map.html">Map</a>
     <a class="bar" href="contact.html">Contact</a>
-    <a class="bar" href="pet.html">Tell us More</a></nav>
+    <a class="bar" href="pet.html">Services</a></nav>
     <img src="pets.jpg" alt="Lots of dogs" id="pic2">
     <body>
-      <h3>Your Dog!</h3>
-        <p class="p3">We love to hear about all types of dogs!<br>
-        Please fill out the form below and tell us more about yourself and your dog!</p>
+      <h3>Services</h3>
+        <p class="p3">We offer various kinds of services for your dog.</p><br>
+  <table class="t1" border="1" align="center">
+  <tr>
+    <th>Service</th>
+    <th>Description</th>
+    <th>Duration</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Bath</td>
+    <td>Thouroughly Bathe your dog and remove any fleas/ticks.</td>
+    <td>1 hour</td>
+    <td>$10</td>
+  </tr>
+  <tr>
+    <td>Walk</td>
+    <td>Take your dog for a while while you are busy</td>
+    <td>1 hour</td>
+    <td>$10</td>
+  </tr>
+  <tr>
+    <td>Dog Sitting</td>
+    <td>We will watch your dog as long as you would like</td>
+    <td>N/A</td>
+    <td>$15/hour</td>
+  </tr>
+</table>
+<br>
+        <p class="p3">Please fill out the form below and tell us more about yourself and your dog!</p>
+        <form id="form1" action="form.html">
+          Last name:
+          <input type="text" name="lastname" value="" required>
+          <br>
+          First name:
+          <input type="text" name="firstname" value="" required>
+          <br>
+          Email:
+          <input type="email" name="" value="" required>
+          <br>
+          Phone number:
+          <input type="text" name="" value="" required>
+          <br>
+          About your dog:
+          <textarea name="comments" rows="5" cols="80" required>Tell us about your dog!</textarea>
+          <br>
+          <select size="1" class="" name="dog">
+            <option>Select your dog's breed</option>
+            <option>Labrador</option>
+            <option>German Shepherd</option>
+            <option>Golden Retriever</option>
+            <option>Bulldog</option>
+            <option>Beagle</option>
+            <option>Poodle</option>
+            <option>Rottweiler</option>
+            <option>Yorkshire Terrier</option>
+            <option>Dachshund</option>
+            <option>Husky</option>
+          </select>
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
   </body>
   <footer>Copyright &copy; Name<br>
 <a href="mailto:martinolich_kody@columbusstate.edu">Email Us!</a></footer>

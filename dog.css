@@ -75,6 +75,15 @@ h3{
 .p3{
   text-align: center;
 }
+.t1{
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #F5FAFC;
+}
+#form1{
+  text-align: center;
+}
 footer{
   margin: 50px;
   text-align: center;
